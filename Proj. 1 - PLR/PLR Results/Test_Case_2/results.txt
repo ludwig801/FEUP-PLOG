@@ -1,0 +1,188 @@
+=======================================================
+            RESULTS FOR TEST CASE _2
+=======================================================
+=======================================================
+> Timeout: 1min
+
+| ?-solve.
+
+> Period 1
+  > Production Per Factory
+    [[0,0],[0,2],[24,12]]
+  > Production Cost Per Factory
+    [[0,0],[0,40],[96,360]]
+  > Initial Storage
+    [10,10]
+  > Production Per Product
+    [[0,0,24],[0,2,12]]
+    [2880,1680]
+  > Sales Per Product
+    [2400,1200]
+  > Storage at the end of the period
+    [490,490]
+  > Workhours Per Factory
+    [0,8,96]
+
+> Period 2
+  > Production Per Factory
+    [[0,0],[0,25],[24,12]]
+  > Production Cost Per Factory
+    [[0,0],[0,500],[96,360]]
+  > Initial Storage
+    [490,490]
+  > Production Per Product
+    [[0,0,24],[0,25,12]]
+    [2880,4440]
+  > Sales Per Product
+    [2400,4800]
+  > Storage at the end of the period
+    [970,130]
+  > Workhours Per Factory
+    [0,100,96]
+
+> Period 3
+  > Production Per Factory
+    [[0,0],[9,0],[24,12]]
+  > Production Cost Per Factory
+    [[0,0],[252,0],[96,360]]
+  > Initial Storage
+    [970,130]
+  > Production Per Product
+    [[0,9,24],[0,0,12]]
+    [3960,1440]
+  > Sales Per Product
+    [4800,600]
+  > Storage at the end of the period
+    [130,970]
+  > Workhours Per Factory
+    [0,18,96]
+
+Total Cost: 2160
+
+=======================================================
+=======================================================
+> Timeout: 2min
+
+> Period 1
+  > Production Per Factory
+    [[0,0],[0,2],[24,12]]
+  > Production Cost Per Factory
+    [[0,0],[0,40],[96,360]]
+  > Initial Storage
+    [10,10]
+  > Production Per Product
+    [[0,0,24],[0,2,12]]
+    [2880,1680]
+  > Sales Per Product
+    [2400,1200]
+  > Storage at the end of the period
+    [490,490]
+  > Workhours Per Factory
+    [0,8,96]
+
+> Period 2
+  > Production Per Factory
+    [[0,0],[0,25],[24,12]]
+  > Production Cost Per Factory
+    [[0,0],[0,500],[96,360]]
+  > Initial Storage
+    [490,490]
+  > Production Per Product
+    [[0,0,24],[0,25,12]]
+    [2880,4440]
+  > Sales Per Product
+    [2400,4800]
+  > Storage at the end of the period
+    [970,130]
+  > Workhours Per Factory
+    [0,100,96]
+
+> Period 3
+  > Production Per Factory
+    [[0,0],[9,0],[24,12]]
+  > Production Cost Per Factory
+    [[0,0],[252,0],[96,360]]
+  > Initial Storage
+    [970,130]
+  > Production Per Product
+    [[0,9,24],[0,0,12]]
+    [3960,1440]
+  > Sales Per Product
+    [4800,600]
+  > Storage at the end of the period
+    [130,970]
+  > Workhours Per Factory
+    [0,18,96]
+
+Total Cost: 2160
+
+=======================================================
+=======================================================
+> Timeout: 10min
+
+> Period 1
+  > Production Per Factory
+    [[0,0],[0,2],[24,12]]
+  > Production Cost Per Factory
+    [[0,0],[0,40],[96,360]]
+  > Initial Storage
+    [10,10]
+  > Production Per Product
+    [[0,0,24],[0,2,12]]
+    [2880,1680]
+  > Sales Per Product
+    [2400,1200]
+  > Storage at the end of the period
+    [490,490]
+  > Workhours Per Factory
+    [0,8,96]
+
+> Period 2
+  > Production Per Factory
+    [[0,0],[0,25],[24,12]]
+  > Production Cost Per Factory
+    [[0,0],[0,500],[96,360]]
+  > Initial Storage
+    [490,490]
+  > Production Per Product
+    [[0,0,24],[0,25,12]]
+    [2880,4440]
+  > Sales Per Product
+    [2400,4800]
+  > Storage at the end of the period
+    [970,130]
+  > Workhours Per Factory
+    [0,100,96]
+
+> Period 3
+  > Production Per Factory
+    [[0,0],[9,0],[24,12]]
+  > Production Cost Per Factory
+    [[0,0],[252,0],[96,360]]
+  > Initial Storage
+    [970,130]
+  > Production Per Product
+    [[0,9,24],[0,0,12]]
+    [3960,1440]
+  > Sales Per Product
+    [4800,600]
+  > Storage at the end of the period
+    [130,970]
+  > Workhours Per Factory
+    [0,18,96]
+
+Total Cost: 2160
+
+=======================================================
+=======================================================
+               TABLE OF COMPARISONS
+=======================================================
+
+  Timeout |   Cost  
+ -------------------
+     1    |  2160   
+ -------------------
+     2    |  2160   
+ -------------------
+    10    |  2160   
+	

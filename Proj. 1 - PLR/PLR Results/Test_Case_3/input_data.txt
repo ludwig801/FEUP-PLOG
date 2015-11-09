@@ -1,0 +1,77 @@
+=======================================================
+            INPUT DATA FOR TEST CASE _1
+=======================================================
+
+Num. Factories: 2
+Num. Products:  4
+
+=======================================================
+> Maximum Production Capacity Per Factory
+
+  Factory  | Max. Capacity
+--------------------------
+     1     |      120      
+--------------------------
+     2     |      120        
+
+=======================================================
+> Price Per Product
+
+                  Products      
+  Factory  |  A   |  B   |  C   |  D   |
+----------------------------------------
+     1     |  40  |  20  |  10  |  0    
+----------------------------------------
+     2     |  40  |  19  |  40  |  32
+----------------------------------------
+
+=======================================================
+> Expected Sales
+
+                  Product      
+  Period   |  A   |  B   |  C   |  D   |
+----------------------------------------
+     1     |  10  |  20  |  40  |  10  
+----------------------------------------
+     2     |  30  |  20  |  30  |  30   
+----------------------------------------
+     3     |  40  |  10  |  10  |  40   
+----------------------------------------
+
+=======================================================
+> Hour-related restrictions
+
+Daily Work Hours Per Factory: 100
+
+  Product  |    Hours
+-------------------------
+     A     |      2      
+-------------------------
+     B     |      3      
+-------------------------
+     C     |      2      
+
+=======================================================
+> Storage-related restrictions
+
+Initial Stock: 10
+
+Minimum Storage at the end of each period (per product): 15
+
+=======================================================
+> Time-related restrictions
+
+Days Per Period: 120
+
+=======================================================
+> Production Restrictions
+
+Factory 1 cannot produce D
+Product D cannot be produced in the 2nd period
+Product A cannot be produced in the 3rd period
+
+=======================================================
+> Proportions Restrictions
+
+Factory 1 production rules: A <-> 2C
+Factory 2 production rules: B <-> 2C

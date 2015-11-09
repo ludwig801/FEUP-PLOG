@@ -1,0 +1,192 @@
+=======================================================
+            RESULTS FOR TEST CASE _1
+=======================================================
+=======================================================
+> Timeout: 1min
+
+| ?-solve.
+
+> Period 1
+  > Production Per Factory
+    [[34,0,17,0],[0,46,23,40]]
+  > Production Cost Per Factory
+    [[1360,0,170,0],[0,874,920,1280]]
+  > Initial Storage
+    [20,20,20,20]
+  > Production Per Product
+    [[34,0],[0,46],[17,23],[0,40]]
+    [4080,5520,4800,4800]
+  > Sales Per Product
+    [1200,2400,4800,1200]
+  > Storage at the end of the period
+    [2900,3140,20,3620]
+  > Workhours Per Factory
+    [153,149]
+
+> Period 2
+  > Production Per Factory
+    [[40,0,20,0],[6,20,10,0]]
+  > Production Cost Per Factory
+    [[1600,0,200,0],[240,380,400,0]]
+  > Initial Storage
+    [2900,3140,20,3620]
+  > Production Per Product
+    [[40,6],[0,20],[20,10],[0,0]]
+    [5520,2400,3600,0]
+  > Sales Per Product
+    [3600,2400,3600,3600]
+  > Storage at the end of the period
+    [4820,3140,20,20]
+  > Workhours Per Factory
+    [180,54]
+
+> Period 3
+  > Production Per Factory
+    [[0,0,0,0],[0,20,10,40]]
+  > Production Cost Per Factory
+    [[0,0,0,0],[0,380,400,1280]]
+  > Initial Storage
+    [4820,3140,20,20]
+  > Production Per Product
+    [[0,0],[0,20],[0,10],[0,40]]
+    [0,2400,1200,4800]
+  > Sales Per Product
+    [4800,1200,1200,4800]
+  > Storage at the end of the period
+    [20,4340,20,20]
+  > Workhours Per Factory
+    [0,110]
+
+Total Cost: 9484
+
+=======================================================
+=======================================================
+> Timeout: 2min
+
+| ?-solve.
+
+> Period 1
+  > Production Per Factory
+    [[36,0,18,0],[0,44,22,40]]
+  > Production Cost Per Factory
+    [[1440,0,180,0],[0,836,880,1280]]
+  > Initial Storage
+    [20,20,20,20]
+  > Production Per Product
+    [[36,0],[0,44],[18,22],[0,40]]
+    [4320,5280,4800,4800]
+  > Sales Per Product
+    [1200,2400,4800,1200]
+  > Storage at the end of the period
+    [3140,2900,20,3620]
+  > Workhours Per Factory
+    [162,146]
+
+> Period 2
+  > Production Per Factory
+    [[40,0,20,0],[4,20,10,0]]
+  > Production Cost Per Factory
+    [[1600,0,200,0],[160,380,400,0]]
+  > Initial Storage
+    [3140,2900,20,3620]
+  > Production Per Product
+    [[40,4],[0,20],[20,10],[0,0]]
+    [5280,2400,3600,0]
+  > Sales Per Product
+    [3600,2400,3600,3600]
+  > Storage at the end of the period
+    [4820,2900,20,20]
+  > Workhours Per Factory
+    [180,46]
+
+> Period 3
+  > Production Per Factory
+    [[0,0,0,0],[0,20,10,40]]
+  > Production Cost Per Factory
+    [[0,0,0,0],[0,380,400,1280]]
+  > Initial Storage
+    [4820,2900,20,20]
+  > Production Per Product
+    [[0,0],[0,20],[0,10],[0,40]]
+    [0,2400,1200,4800]
+  > Sales Per Product
+    [4800,1200,1200,4800]
+  > Storage at the end of the period
+    [20,4100,20,20]
+  > Workhours Per Factory
+    [0,110]
+
+Total Cost: 9416
+
+=======================================================
+=======================================================
+> Timeout: 10min
+
+| ?-solve.
+
+> Period 1
+  > Production Per Factory
+    [[40,0,20,0],[0,40,20,40]]
+  > Production Cost Per Factory
+    [[1600,0,200,0],[0,760,800,1280]]
+  > Initial Storage
+    [20,20,20,20]
+  > Production Per Product
+    [[40,0],[0,40],[20,20],[0,40]]
+    [4800,4800,4800,4800]
+  > Sales Per Product
+    [1200,2400,4800,1200]
+  > Storage at the end of the period
+    [3620,2420,20,3620]
+  > Workhours Per Factory
+    [180,140]
+
+> Period 2
+  > Production Per Factory
+    [[40,0,20,0],[0,20,10,0]]
+  > Production Cost Per Factory
+    [[1600,0,200,0],[0,380,400,0]]
+  > Initial Storage
+    [3620,2420,20,3620]
+  > Production Per Product
+    [[40,0],[0,20],[20,10],[0,0]]
+    [4800,2400,3600,0]
+  > Sales Per Product
+    [3600,2400,3600,3600]
+  > Storage at the end of the period
+    [4820,2420,20,20]
+  > Workhours Per Factory
+    [180,30]
+
+> Period 3
+  > Production Per Factory
+    [[0,0,0,0],[0,20,10,40]]
+  > Production Cost Per Factory
+    [[0,0,0,0],[0,380,400,1280]]
+  > Initial Storage
+    [4820,2420,20,20]
+  > Production Per Product
+    [[0,0],[0,20],[0,10],[0,40]]
+    [0,2400,1200,4800]
+  > Sales Per Product
+    [4800,1200,1200,4800]
+  > Storage at the end of the period
+    [20,3620,20,20]
+  > Workhours Per Factory
+    [0,110]
+
+Total Cost: 9280
+
+=======================================================
+=======================================================
+               TABLE OF COMPARISONS
+=======================================================
+
+  Timeout |   Cost  
+ -------------------
+     1    |  9484   
+ -------------------
+     2    |  9416   
+ -------------------
+    10    |  9280   
+	
